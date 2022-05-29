@@ -44,7 +44,7 @@ namespace Aspenlaub.Net.GitHub.CSharp.Fusion50.Test {
             Assert.IsTrue(changedBinaries.Any(c => c.FileName == "Aspenlaub.Net.GitHub.CSharp.Pegh.deps.json"));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void CanListChangedProuserBinaries() {
             var sut = Container.Resolve<IChangedBinariesLister>();
             Assert.IsNotNull(sut);
