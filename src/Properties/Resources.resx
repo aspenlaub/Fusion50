@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddingEquivalentHeadTipSha" xml:space="preserve">
+    <value>No release binaries changed between head tip sha '{0}' (pushed) and '{1}' (not pushed) -&gt; considering that one pushed to '{2}'</value>
+  </data>
+  <data name="AtLeastOneFileExpected" xml:space="preserve">
+    <value>Expected at least one file to commit and push</value>
+  </data>
+  <data name="AutoCommitPushAccessTokenNotFound" xml:space="preserve">
+    <value>Access token with purpose AutoCommitPush not found</value>
+  </data>
+  <data name="AutoUpdateOfCakeFile" xml:space="preserve">
+    <value>Automated update of "{0}"</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Building '{0}' at head tip ID sha '{1}'</value>
+  </data>
+  <data name="CannotMakeHeadTipShasEquivalentCauseSourceHasNotBeenPushed" xml:space="preserve">
+    <value>Cannot make head tip sha '{0}' and '{1}' equivalent because the former has not been pushed to '{2}'</value>
+  </data>
+  <data name="CannotMakeHeadTipShasEquivalentCauseThisIsNotRelease" xml:space="preserve">
+    <value>This is not release, cannot make head tip sha '{0}' and '{1}' equivalent</value>
+  </data>
+  <data name="CannotMakeHeadTipShasEquivalentDueToCopies" xml:space="preserve">
+    <value>Files have been copied, cannot make head tip sha '{0}' and '{1}' equivalent</value>
+  </data>
+  <data name="CanUpdatePackageFromTo" xml:space="preserve">
+    <value>Could update package {0} from {1} to {2}</value>
+  </data>
+  <data name="CheckedOutBranchIsNotMaster" xml:space="preserve">
+    <value>It is not the master branch that is checked out</value>
+  </data>
+  <data name="CheckingIfThereAreChangedBinaries" xml:space="preserve">
+    <value>Checking if there are changed binaries between head tip shas "{0}" and "{1}"</value>
+  </data>
+  <data name="CheckingProjectVsSolution" xml:space="preserve">
+    <value>Checking project ID against solution ID</value>
+  </data>
+  <data name="CheckingRemotePackageTag" xml:space="preserve">
+    <value>Checking remote package tag</value>
+  </data>
+  <data name="CouldNotLoadProject" xml:space="preserve">
+    <value>Could not load project "{0}"</value>
+  </data>
+  <data name="CouldNotUpdate" xml:space="preserve">
+    <value>Could not update '{0}'</value>
+  </data>
+  <data name="ExactlyOneFileExpected" xml:space="preserve">
+    <value>Expected exactly one file to commit and push, got: {0}</value>
+  </data>
+  <data name="FailedToBuild" xml:space="preserve">
+    <value>Failed to build '{0}' at head tip ID sha '{1}'</value>
+  </data>
+  <data name="FailedToCopy" xml:space="preserve">
+    <value>Failed to copy "{0}" to "{1}</value>
+  </data>
+  <data name="FailedToRename" xml:space="preserve">
+    <value>Failed to rename "{0}" into "{1}"</value>
+  </data>
+  <data name="FailedToRestore" xml:space="preserve">
+    <value>Failed to restore nuget packages for '{0}' at head tip ID sha '{1}'</value>
+  </data>
+  <data name="FileIsNew" xml:space="preserve">
+    <value>File is new</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File "{0}" not found</value>
+  </data>
+  <data name="FileRenamedButOriginalStillExists" xml:space="preserve">
+    <value>"{0}" renamed into "{1}", but the original file still exists</value>
+  </data>
+  <data name="FilesDifferInLength" xml:space="preserve">
+    <value>Files differ in length (new {0}, old {1})</value>
+  </data>
+  <data name="FilesHaveEqualLengthButNDifferences" xml:space="preserve">
+    <value>The files are equal in length but have {0} differences, which cannot be ignored</value>
+  </data>
+  <data name="FilesHaveEqualLengthThatCannotBeIgnored" xml:space="preserve">
+    <value>The files are equal in length but it cannot be ignored</value>
+  </data>
+  <data name="FoundFile" xml:space="preserve">
+    <value>Found file "{0}"</value>
+  </data>
+  <data name="FoundLocalPackage" xml:space="preserve">
+    <value>Found local package {0}</value>
+  </data>
+  <data name="FoundRemotePackage" xml:space="preserve">
+    <value>Found remote package {0}</value>
+  </data>
+  <data name="HeadTipShaHasAlreadyBeenPushed" xml:space="preserve">
+    <value>Head tip sha '{0}' has already been pushed to '{1}'</value>
+  </data>
+  <data name="HeadTipShaNotPushed" xml:space="preserve">
+    <value>Head tip sha {0} has not yet been pushed</value>
+  </data>
+  <data name="IdentifyingFeedUrl" xml:space="preserve">
+    <value>Identifying feed URL</value>
+  </data>
+  <data name="IdentifyingNugetFeed" xml:space="preserve">
+    <value>Identifying nuget feed</value>
+  </data>
+  <data name="IncompleteDeveloperSettings" xml:space="preserve">
+    <value>Incomplete 'DeveloperSettings'. Please update "{0}" in your SecretRepository</value>
+  </data>
+  <data name="JsonFilesHaveEqualLengthThatCannotBeIgnored" xml:space="preserve">
+    <value>The json files are equal in length but it cannot be ignored</value>
+  </data>
+  <data name="LoadingNugetFeeds" xml:space="preserve">
+    <value>Loading nuget feeds</value>
+  </data>
+  <data name="LoadingProject" xml:space="preserve">
+    <value>Loading project</value>
+  </data>
+  <data name="LoadingPushedHeadTipShas" xml:space="preserve">
+    <value>Loading pushed head tip shas</value>
+  </data>
+  <data name="MissingDeveloperSettings" xml:space="preserve">
+    <value>Missing 'DeveloperSettings' secret. Open "{0}" in SecretSamples, modify it and save it in SecretRepository</value>
+  </data>
+  <data name="NoBinariesHaveChanged" xml:space="preserve">
+    <value>No binaries have changed, there is no need to push</value>
+  </data>
+  <data name="NoFileWithUncommittedChanges" xml:space="preserve">
+    <value>There are no files with uncommitted changes</value>
+  </data>
+  <data name="NoNugetFeedIdThereforeNoEquivalenceCheck" xml:space="preserve">
+    <value>No nuget feed id has been provided, therefore the head tip sha equivalence of '{0}' and '{1}' is not checked</value>
+  </data>
+  <data name="NoPackageFilesFound" xml:space="preserve">
+    <value>Folder "{0}" does not contain any packages</value>
+  </data>
+  <data name="NoPackagesThereforeNoEquivalenceCheck" xml:space="preserve">
+    <value>The project does not push packages, therefore the head tip sha equivalence of '{0}' and '{1}' is not checked</value>
+  </data>
+  <data name="NoRemotePackageFilesFound" xml:space="preserve">
+    <value>Feed "{0}" does not provide package "{1}"</value>
+  </data>
+  <data name="NumberOfFilesWithUncommittedChangesHasChanged" xml:space="preserve">
+    <value>The number of files with uncommitted changes has changed. Expected {0}, got {1}</value>
+  </data>
+  <data name="OnlyCakeFilesExpected" xml:space="preserve">
+    <value>Expected cake files to commit and push, no other file types</value>
+  </data>
+  <data name="OnlyCsProjAndConfigFilesExpected" xml:space="preserve">
+    <value>Expected .csproj and .config files to commit and push, no other file types</value>
+  </data>
+  <data name="OtherFilesRequireUpdateAnyway" xml:space="preserve">
+    <value>Other files require update anyway</value>
+  </data>
+  <data name="OwnerAndNameNotFound" xml:space="preserve">
+    <value>Could not find owner and name of the remote repository</value>
+  </data>
+  <data name="PackageAlreadyTaggedWithHeadTipSha" xml:space="preserve">
+    <value>The remote package is already tagged with the head tip sha</value>
+  </data>
+  <data name="PackageNeedsToBePushed" xml:space="preserve">
+    <value>The package needs to be pushed</value>
+  </data>
+  <data name="PackageUpdates" xml:space="preserve">
+    <value>Package/-s updated to most recent version</value>
+  </data>
+  <data name="ProjectFileNotFound" xml:space="preserve">
+    <value>There is no project file "{0}"</value>
+  </data>
+  <data name="RemoteNotFoundOrNotUnique" xml:space="preserve">
+    <value>Remove repository not found or not unique</value>
+  </data>
+  <data name="RemotePackageContainsSeveralTags" xml:space="preserve">
+    <value>Remote package contains several tags: "{0}"</value>
+  </data>
+  <data name="RemotePackageHasHigherOrEqualVersion" xml:space="preserve">
+    <value>The remote package version number is higher or equal to the version number of the local package</value>
+  </data>
+  <data name="Restoring" xml:space="preserve">
+    <value>Restoring nuget packages for '{0}' at head tip ID sha '{1}'</value>
+  </data>
+  <data name="SearchingLocalPackage" xml:space="preserve">
+    <value>Searching local package</value>
+  </data>
+  <data name="SearchingRemotePackage" xml:space="preserve">
+    <value>Searching remote package</value>
+  </data>
+  <data name="TagsAre" xml:space="preserve">
+    <value>Remote package tags are: "{0}"</value>
+  </data>
+  <data name="UnknownNugetFeed" xml:space="preserve">
+    <value>Unknown nuget feed '{0}', please add to "{1}" in your SecretRepository</value>
+  </data>
+  <data name="UpdatingFile" xml:space="preserve">
+    <value>Updating "{0}"</value>
+  </data>
+</root>
